@@ -9,6 +9,8 @@ struct pile {
 	struct pile * suivant;
 };
 
+/* TODO A FINIR */
+
 typedef struct pile* Pile;
 
 void afficher_tableau_pile(Pile[]);
