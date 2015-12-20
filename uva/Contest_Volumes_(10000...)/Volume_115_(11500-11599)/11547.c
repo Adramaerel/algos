@@ -18,9 +18,3 @@ int main()
 	exit(0);
 }
 
-/*
-
-“Multiply n by 567, then divide the result by 9, then add 7492, then multiply by 235, then divide
-by 47, then subtract 498. What is the digit in the tens column?”
-
-*/
