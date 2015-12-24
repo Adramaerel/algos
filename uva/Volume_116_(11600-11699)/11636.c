@@ -2,27 +2,25 @@
 #include<stdio.h>
 int main()
 {
-	int cases_number;
+
 	int number;
-	int puissance_2 = 1;
-	int i, j;
-	scanf("%d", &cases_number);
-	for(i = 1; i <= cases_number; i++)
+	int puissance_2;
+	int i = 0, j;
+
+	while(1)
 	{
-		scanf("%d", number);
+		i++;
+		scanf("%d", &number);
+		if(number < 0) break;
 		j = 0;
+		puissance_2 = 1;
 		while(puissance_2 < number)
 		{
 			puissance_2 *= 2;
 			j++;
 		}
-		if(puissance_2 == number)
-		{
-			printf("Case %d : %d", i, j);
-		} else
-		{
-			printf("Case %d : %d", i, j + 1);
-		}
+		if (number == 0 || number == 1) printf("Case %d: %d\n", i, 0);
+		else printf("Case %d: %d\n", i, j);
 	}
 	return 0;
 }
