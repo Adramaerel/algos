@@ -1,0 +1,31 @@
+
+import java.util.Scanner;
+
+public class P12577 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int count =1;
+		while(true) {
+			String ligne = sc.nextLine();
+			switch (ligne) {
+			case "Hajj":
+				System.out.println("Case " + count++ + ":" + " Hajj-e-Akbar");
+				break;
+			case "Umrah":
+				System.out.println("Case " + count++ + ":" + " Hajj-e-Asghar");
+				break;
+
+			case "*":
+				System.exit(0);
+				break;
+			default:
+			}
+		}
+
+
+	}
+
+}
+
