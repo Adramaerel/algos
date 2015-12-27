@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+
+public class P12403 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int testCases = Integer.parseInt(sc.nextLine());
+		int count = 0;
+		for(int i = 0; i < testCases; i++) {
+			
+			String ligne;
+			if((ligne = sc.nextLine()).startsWith("report")) {
+				System.out.println(count);
+			} else {
+				count += Integer.parseInt(ligne.split(" ")[1]);
+			}
+		}
+		
+	}
+
+}
+
