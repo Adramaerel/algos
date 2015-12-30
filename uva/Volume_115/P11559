@@ -1,1 +1,46 @@
-sdf
+import java.util.Scanner;
+
+public class P11559 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext())  {
+			Integer peopleNumber = sc.nextInt();
+			Integer budget = sc.nextInt();
+			Integer hotelsNb = sc.nextInt();
+			Integer weekNb = sc.nextInt();
+			int maxPrice = Integer.MAX_VALUE;
+
+			for(int i = 0; i < hotelsNb; i++) {
+				boolean capacity = false;
+				Integer prixHotel = sc.nextInt();
+				for(int j = 0; j < weekNb; j++) {
+					Integer freeBeds = sc.nextInt();
+					if(freeBeds >= peopleNumber) {
+						capacity = true;
+					}
+				}
+				if(capacity) {
+					int budgetHotel = prixHotel * peopleNumber;
+					if(budgetHotel < maxPrice && budgetHotel <= budget) {
+						maxPrice = budgetHotel;
+					} else {
+						continue;
+					}
+				}
+			}
+			if(maxPrice == Integer.MAX_VALUE) {
+				System.out.println("stay home");
+			} else {
+				System.out.println(maxPrice);
+			}
+
+
+
+		}
+		sc.close();
+	}
+
+}
+
