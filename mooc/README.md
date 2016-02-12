@@ -1,3 +1,3 @@
-The MOOCs I decided to lean with.
+The MOOCs I decided to learn with.
 
 Lessons notes and assignments responses.
