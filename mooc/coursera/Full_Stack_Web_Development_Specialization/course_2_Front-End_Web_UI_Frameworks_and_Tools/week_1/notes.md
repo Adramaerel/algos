@@ -48,12 +48,13 @@ Popular front-end UI frameworks
 
 ## Introduction to Bootstrap
 
-	Bootstrap is widely used for website design. It includes HTML and CSS based design templates for many components and has built-in support for creating responsive designs with mobile first approach.
+Bootstrap is widely used for website design. It includes HTML and CSS based design templates for many components and has built-in support for creating responsive designs with mobile first approach.
 
 ## Getting started with Bootstrap
 
-	Download Bootstrap at get http://getbootstrap.com, unzip the archive and then we can launch an HelloWorld with :
+Download Bootstrap at get http://getbootstrap.com, unzip the archive and then we can launch an HelloWorld with :
 
+```javascript
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -82,5 +83,5 @@ Popular front-end UI frameworks
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-
+```
 
