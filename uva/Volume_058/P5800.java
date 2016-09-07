@@ -1,5 +1,3 @@
-package uva.p058;
-
 import java.util.Scanner;
 
 public class P5800 {
