@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.sop.pha</groupId>
+  <artifactId>pha-main</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>pha-webapp</module>
+  </modules>
+  
+  <properties>
+  <org.springframework.version>4.3.4.RELEASE</org.springframework.version>
+  <javax.servlet.version>3.1.0</javax.servlet.version>
+  <javax.servlet.jsp.version>2.3.1</javax.servlet.jsp.version>
+  <javax.servlet.jstl.version>1.2</javax.servlet.jstl.version>
+  </properties>
+</project>
