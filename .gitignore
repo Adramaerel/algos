@@ -1,3 +1,6 @@
 .metadata
 *~
 *.out
+.classpath
+.project
+.settings
