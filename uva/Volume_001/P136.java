@@ -1,4 +1,13 @@
 
+/**
+ *  Ugly Numbers.
+ *  https://uva.onlinejudge.org
+ *  Problem #136
+ *  This code raises a Time Limit. I used it to compute the answer. 
+ *  As there is no input, I submitted directly the answer.
+ * @author Adramaerel
+ *
+ */
 public class P136 {
 
 	public static void main(String[] args) {
@@ -8,7 +17,7 @@ public class P136 {
 				count ++;
 			}
 			if(count == 1500) {
-				System.out.println("The 1500'th ugly number is "+i+".");
+				System.out.println("The 1500'th ugly number is " + i + ".");
 				return;
 			}
 		}
