@@ -19,6 +19,7 @@ public class P483 {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }

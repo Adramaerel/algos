@@ -18,7 +18,7 @@ public class P12372 {
 			}
 				
 		}
-		
+		sc.close();
 	}
 
 }

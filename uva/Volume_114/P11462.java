@@ -28,7 +28,7 @@ public class P11462 {
 
 			System.out.println(sb);
 		}
-
+		sc.close();
 	}
 
 }

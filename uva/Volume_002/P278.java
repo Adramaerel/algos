@@ -13,7 +13,7 @@ public class P278 {
 			int m = sc.nextInt();
 			int n = sc.nextInt();
 			sc.nextLine();
-			
+
 			switch(piece) {
 			case 'r':
 				System.out.println(Math.min(n,m));
@@ -30,7 +30,7 @@ public class P278 {
 			}
 
 		}
-
+		sc.close();
 	}
 
 }

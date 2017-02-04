@@ -1,5 +1,3 @@
-package adra;
-
 import java.util.Scanner;
 
 public class P102 {
@@ -62,7 +60,7 @@ public class P102 {
 			Solution solution = calculateSolution(a, b, c);
 			System.out.println(solution.solution + " " + solution.nbMouvements);
 		}
-		
+		input.close();
 		
 		
 	}

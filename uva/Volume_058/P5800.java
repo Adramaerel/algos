@@ -19,7 +19,7 @@ public class P5800 {
 			}
 			System.out.println();
 		}
-		
+		sc.close();
 	}
 
 }

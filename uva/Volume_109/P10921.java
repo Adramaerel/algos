@@ -56,7 +56,7 @@ public class P10921 {
 			}
 			System.out.println(result);
 		}
-		
+		sc.close();
 	}
 
 }

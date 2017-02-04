@@ -7,7 +7,6 @@ import java.math.BigInteger;
 public class P10929 {
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 
 		String ligne;
 		BufferedReader entree = new BufferedReader(new InputStreamReader(System.in));

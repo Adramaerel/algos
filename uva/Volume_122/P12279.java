@@ -21,7 +21,7 @@ public class P12279 {
 			System.out.println("Case " + j + ": " + count);
 			j++;
 		}
-		
+		sc.close();
 	}
 
 }

@@ -17,8 +17,8 @@ public class P382 {
 				}
 			}
 			Integer sum  = diviseurs.stream().mapToInt(c -> c).sum();
-			
-			
+
+
 			String integer2 = formatInteger(integer);
 			if(integer == 1 || sum < integer) {
 				System.out.println(integer2 + "  DEFICIENT");
@@ -27,11 +27,11 @@ public class P382 {
 			} else {
 				System.out.println(integer2 + "  ABUNDANT");
 			}
-			
+
 
 		}
 		System.out.println("END OF OUTPUT");
-
+		sc.close();
 
 	}
 

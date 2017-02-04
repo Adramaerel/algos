@@ -27,6 +27,7 @@ public class P11364 {
 			System.out.println(dist);
 
 		}
+		sc.close();
 
 	}
 	/* ugly ! */

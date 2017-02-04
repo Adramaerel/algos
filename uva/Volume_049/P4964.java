@@ -21,7 +21,7 @@ public class P4964 {
 			boolean b;
 				System.out.printf((b = r1 == (tab2[2] - tab2[1])) ? "AP %d\n" : "GP %d\n", b ? tab2[2] + r1 : tab2[2] * tab2[1] / tab2[0]);
 		}
-		
+	sc.close();	
 	}
 
 }

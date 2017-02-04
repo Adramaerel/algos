@@ -19,7 +19,7 @@ public class P374 {
 			System.out.println(b.modPow(p, m));
 			
 		}
-		
+		sc.close();
 	}
 
 }

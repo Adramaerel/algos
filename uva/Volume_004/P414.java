@@ -30,7 +30,7 @@ public class P414 {
 			}
 			System.out.println(result);
 		}
-		
+		sc.close();
 	}
 
 }

@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class P10082 {
@@ -61,7 +60,7 @@ public class P10082 {
 			
 			System.out.println(ligne);
 		}
-		
+		sc.close();
 	}
 
 }

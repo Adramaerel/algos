@@ -26,6 +26,7 @@ public class P11942 {
 			}
 			System.out.println(result);
 		}
+		sc.close();
 	}
 
 }

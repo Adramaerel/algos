@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class P299 {
@@ -33,7 +31,7 @@ public class P299 {
 			System.out.println("Optimal train swapping takes " + swapCount + " swaps.");
 			
 		}
-		
+		sc.close();
 	}
 
 }

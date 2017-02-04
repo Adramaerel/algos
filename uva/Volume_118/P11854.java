@@ -1,4 +1,4 @@
-package uva;
+ 
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -8,7 +8,6 @@ public class P11854 {
 	public static void main(String[] args) throws Exception {
 
 		Scanner sc =new Scanner(System.in);
-		int[] side = new int[3];
 		Integer [] inputInt = new Integer[3];
 		while(sc.hasNext()) {
 
@@ -28,6 +27,7 @@ public class P11854 {
 			}
 		}
 		System.exit(0);
+		sc.close();
 	}
 
 }

@@ -1,5 +1,3 @@
-package uva.p101;
-
 import java.util.Scanner;
 
 public class P10110 {

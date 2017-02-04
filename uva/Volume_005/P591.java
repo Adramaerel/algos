@@ -24,6 +24,7 @@ public class P591 {
 			System.out.printf("The minimum number of moves is %d.\n\n", nb);
 
 		}
+		sc.close();
 	}
 
 }

@@ -1,4 +1,4 @@
-package uva;
+ 
 
 import java.util.Scanner;
 public class P494 {
@@ -23,6 +23,7 @@ public class P494 {
 			}
 			System.out.println(count);
 		}
+		sc.close();
 	}
 }
 

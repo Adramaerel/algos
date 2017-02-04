@@ -38,7 +38,7 @@ public class P12250 {
 				
 			}
 		}
-
+		sc.close();
 	}
 
 }

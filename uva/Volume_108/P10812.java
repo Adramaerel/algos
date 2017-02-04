@@ -1,5 +1,3 @@
-package uva.p108;
-
 import java.util.Scanner;
 
 public class P10812 {
@@ -35,6 +33,7 @@ public class P10812 {
 			}
 			
 		}
+		sc.close();
 	}
 
 }

@@ -3,12 +3,6 @@ import java.io.InputStreamReader;
 
 public class P2052 {
 
-	private static int calculate(Integer x, Integer y) {
-		Integer [] antecedentsX = new Integer[2];
-
-		return 0;
-	}
-
 	public static void main(String[] args) throws Exception {
 
 		BufferedReader entree = new BufferedReader(new InputStreamReader(System.in));

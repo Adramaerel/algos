@@ -28,6 +28,7 @@ public class P12015 {
 				System.out.println(results.get(j));
 			}
 		}
+		sc.close();
 	}
 
 }

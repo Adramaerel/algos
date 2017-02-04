@@ -17,6 +17,7 @@ public class P11875 {
 			Arrays.sort(input);
 			System.out.printf("Case %d: %d\n", i +1, (int)input[input.length / 2]);
 		}
+		sc.close();
 	}
 
 }

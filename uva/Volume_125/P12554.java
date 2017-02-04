@@ -30,7 +30,7 @@ public class P12554 {
 			if(mayBreak && (compteurSong % songTab.length) == 0) break;
 
 		}
-
+		sc.close();
 	}
 
 }

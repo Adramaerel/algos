@@ -44,13 +44,13 @@ public class P10420 {
 
 			}
 		}
-		
+
 		Collections.sort(list);
 		for(Pair pair : list) {
 			System.out.printf("%s %d\n", pair.country, pair.nb
 					);
 		}
-
+		sc.close();
 	}
 
 }

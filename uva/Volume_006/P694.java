@@ -29,7 +29,7 @@ public class P694 {
 			caseNb++;
 		}
 		
-		
+		sc.close();
 	}
 
 }

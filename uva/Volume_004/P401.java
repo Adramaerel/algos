@@ -65,6 +65,7 @@ public class P401 {
 				System.out.println(ligne + " -- is not a palindrome.\n");
 			}
 		}
+		sc.close();
 	}
 
 	private static Boolean testMirroredString(String ligne) {

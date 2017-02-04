@@ -1,5 +1,3 @@
-package uva.p006;
-
 import java.util.Scanner;
 
 public class P621 {

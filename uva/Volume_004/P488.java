@@ -58,5 +58,6 @@ public class P488 {
 			
 			
 		}
+		sc.close();
 	}
 }

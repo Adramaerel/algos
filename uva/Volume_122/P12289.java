@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class P12289 {
 
 	public static void main(String[] args) {
 
@@ -37,7 +37,7 @@ public class Main {
 
 			}
 		}
-
+		sc.close();
 	}
 
 }

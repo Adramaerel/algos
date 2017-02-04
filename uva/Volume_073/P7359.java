@@ -13,22 +13,19 @@ public class P7359 {
 			
 		}
 		
-		
+		sc.close();
 		
 	}
 
 	private static int sum_3(int parseInt) {
-		// TODO Auto-generated method stub
 		return parseInt * (parseInt + 1);
 	}
 
 	private static int sum_2(int parseInt) {
-		// TODO Auto-generated method stub
 		return parseInt * parseInt;
 	}
 
 	private static int sum_1(int parseInt) {
-		// TODO Auto-generated method stub
 		return parseInt * (parseInt + 1) /2;
 	}
 

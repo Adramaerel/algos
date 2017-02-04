@@ -34,7 +34,7 @@ public class P10469 {
 			System.out.println(res);
 			
 		}
-		
+		sc.close();
 	}
 
 	private static String completeWithZeros(String nombre1, int maxLength) {
