@@ -9,7 +9,7 @@ struct pile {
 	struct pile * suivant;
 };
 
-/* TODO A FINIR */
+/* TODO NOT FINISHED */
 
 typedef struct pile* Pile;
 
