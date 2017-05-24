@@ -20,6 +20,12 @@ codingame :
 mooc : 
 
 	The moocs I decided to learn with.
+	
+projects/artificial-neural-network
+
+	a project than emulates the human brain in order to produce a structure that can teach itself
+	
+
 
 
 

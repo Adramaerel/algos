@@ -7,3 +7,8 @@
 *.class
 data
 log
+logs
+bin
+target
+WebContent
+build
