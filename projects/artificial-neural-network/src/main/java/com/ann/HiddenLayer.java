@@ -9,4 +9,10 @@ package com.ann;
  */
 public class HiddenLayer extends Layer {
 
+
+	public void initLayer(HiddenLayer layer) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

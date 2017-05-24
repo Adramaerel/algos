@@ -17,7 +17,7 @@ public abstract class Layer {
 	private List<Neuron> listOfNeurons;
 	
 	private int numberOfNeuronsInLayer;
-
+	
 	/**
 	 * Accesseur en lecture de listOfNeurons.
 	 * @return the listOfNeurons

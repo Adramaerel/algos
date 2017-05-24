@@ -9,4 +9,10 @@ package com.ann;
  */
 public class OutputLayer extends Layer {
 
+
+	public void initLayer(OutputLayer layer) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
