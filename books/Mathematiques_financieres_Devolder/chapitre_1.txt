@@ -1,0 +1,35 @@
+I. Notions de cours les plus importantes :
+
+	Lorsqu'un capital est prêté, le prêteur perçoit usuellement une rémunération appelée intérêt. La rémunération augmente avec la durée de placement et la somme investie. La période unitaire usuelle est l'année.
+
+	L'intérêt simple est basé sur un principe de proportionalité de l'intérêt gagné au temps de placement. L'intérêt est une fonction linéaire de la durée.
+	
+	    ----------------------
+		| C(t) = C(0)(1 + r * t) | 
+		----------------------
+							t : durée de placement, C(0) : montant intialement placé, C(t) : montant obtenu après une durée t, r : taux d'intérêt
+	
+	L'intérêt composé est basé sur l'idée que les intérêts progressivement gagnés doivent également être porteurs d'intérêts.
+	
+		------------------------
+		| C(t) = C(0)(1 + r)^t |
+		------------------------
+		
+	Taux d'intérêt fractionné : dans le cas des intérêts simple le taux d'intérêt fractionné en m périodes équivalent au taux annuel r est donné par la relation :
+	
+	------------
+	|	     r |
+	| r_m =  - |
+	|        m |
+	|----------|
+							
+II. Exemples
+
+	1.4 C(3) =  100 * 0.04 * 3 + 100 = 112€
+		C(0.5) = 100 * 0.04 * 0.5 + 100 = 102€
+		
+	1.5 C(3) = 100 (1 + 0.04) ^3 = 112.49€
+		C(0.5) = 100 (1 + 0.04) ^ 0.5 = 101.98
+		
+III. Exercices
+
