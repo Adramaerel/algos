@@ -19,6 +19,11 @@ public class Neuron {
 	private List<Double> listOfWeightOut;
 	
 	/**
+	 * The layer in which the neuron belongs.
+	 */
+	private Layer layer;
+	
+	/**
 	 * 
 	 */
 	public Neuron() {
@@ -74,6 +79,22 @@ public class Neuron {
 	 */
 	public void setListOfWeightOut(List<Double> listOfWeightOut) {
 		this.listOfWeightOut = listOfWeightOut;
+	}
+
+	/**
+	 * Accesseur en lecture de layer.
+	 * @return the layer
+	 */
+	public Layer getLayer() {
+		return layer;
+	}
+
+	/**
+	 * Accesseur en ecriture de layer
+	 * @param layer the layer to set
+	 */
+	public void setLayer(Layer layer) {
+		this.layer = layer;
 	}
 
 }
