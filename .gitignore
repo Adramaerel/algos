@@ -12,3 +12,5 @@ bin
 target
 WebContent
 build
+*.exe
+*NotToCommit*
