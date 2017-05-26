@@ -11,8 +11,16 @@ public class InputLayer extends Layer {
 
 
 	public void initLayer(InputLayer layer) {
-		// TODO Auto-generated method stub
 		
+	}
+	
+	public void printLayer() {
+		System.out.println(toString());
+	}
+	
+	public String toString() {
+		
+		return "";
 	}
 
 }

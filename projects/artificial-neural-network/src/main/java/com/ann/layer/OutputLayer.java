@@ -14,5 +14,14 @@ public class OutputLayer extends Layer {
 		// TODO Auto-generated method stub
 		
 	}
+	
+	public void printLayer() {
+		System.out.println(toString());
+	}
+	
+	public String toString() {
+		
+		return "";
+	}
 
 }
