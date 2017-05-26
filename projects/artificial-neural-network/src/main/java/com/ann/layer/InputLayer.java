@@ -9,11 +9,6 @@ package com.ann.layer;
  */
 public class InputLayer extends Layer {
 
-
-	public void initLayer(InputLayer layer) {
-		
-	}
-	
 	public void printLayer() {
 		System.out.println(toString());
 	}
