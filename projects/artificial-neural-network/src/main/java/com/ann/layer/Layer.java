@@ -1,9 +1,11 @@
 /**
  * 
  */
-package com.ann;
+package com.ann.layer;
 
 import java.util.List;
+
+import com.ann.Neuron;
 
 /**
  * @author Sophie
