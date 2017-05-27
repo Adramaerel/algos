@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class P2782 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
 		int integer;
 		while((integer = Integer.parseInt(sc.nextLine())) != -1) {
@@ -26,20 +26,20 @@ public class P2782 {
 				enfant.setNom(tab[3]);
 				list.add(enfant );
 			}
-			
+
 			final int max = list.stream().mapToInt(e -> e.getVolume()).max().getAsInt();
 			final int min = list.stream().mapToInt(e -> e.getVolume()).min().getAsInt();
 			String enfantMin = list.stream().filter(e -> e.getVolume() == min).findAny().get().getNom();
 			String enfantMax = list.stream().filter(e -> e.getVolume() == max).findAny().get().getNom();
 			System.out.printf("%s took clay from %s.\n", enfantMax, enfantMin);
-			
-		}
 
+		}
+		sc.close();
 	}
 
 }
 class Enfant {
-	
+
 	private int volume;
 	private String nom;
 	public int getVolume() {

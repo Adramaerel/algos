@@ -3,7 +3,7 @@
 int main()
 {
 	char c;
-	while(scanf() != EOF)
+	while(scanf("%c", &c) != EOF)
 	{
 		if (c == '\n')
 		{

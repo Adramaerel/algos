@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 
 /**
- * @author Sophie
+ * @author Ethardolind
  *
  */
 public class P10070 {

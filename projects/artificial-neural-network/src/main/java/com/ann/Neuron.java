@@ -38,15 +38,7 @@ public class Neuron {
 	 * to a random decimal number list between 1 and 5
 	 * @return a decimal random number between 0 and 1
 	 */
-	public Double initNeuron() {
-		Random random = new Random();
-		for(int i = 0; i < random.nextInt(4) + 1; i++) {
-			listOfWeightIn.add(random.nextDouble());
-		}
-		for(int i = 0; i < random.nextInt(4) + 1; i++) {
-			listOfWeightOut.add(random.nextDouble());
-		}
-		
+	public Double initNeuron() {		
 		return Math.random();
 		
 	}

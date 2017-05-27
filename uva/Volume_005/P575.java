@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Adramaerel
+ *
+ */
 public class P575 {
 	
 	public static void main(String[] args) {
@@ -18,7 +23,7 @@ public class P575 {
 			System.out.println(reponse);
 			
 		}
-		
+		sc.close();
 	}
 
 }

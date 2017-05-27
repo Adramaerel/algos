@@ -14,3 +14,4 @@ WebContent
 build
 *.exe
 *NotToCommit*
+*lock.*

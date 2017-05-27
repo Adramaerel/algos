@@ -36,6 +36,7 @@ public class P499 {
 			System.out.println(" " + maximum);
 			list.clear();
 		}
+		sc.close();
 	}
 }
 class Objet {
