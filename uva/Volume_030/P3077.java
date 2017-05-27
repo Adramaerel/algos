@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * icpcarchive.ecs.baylor.edu problem 3077 in Java - No Brainer 
- * @author Sophie
+ * @author Ethardolind
  *
  */
 public class P3077 {

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * icpcarchive.ecs.baylor.edu problem 6235 in Java - Tongues
- * @author Sophie
+ * @author Ethardolind
  *
  */
 public class P6235 {
