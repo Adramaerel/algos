@@ -49,7 +49,7 @@ public class P11461 {
 			System.out.println(bornesup - borneinf + 1);
 		}
 
-
+		sc.close();
 
 
 	}

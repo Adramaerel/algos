@@ -61,6 +61,7 @@ public class P10070 {
 			
 		}
 		System.out.print(sb.substring(0, sb.length() - 1));
+		sc.close();
 	}
 
 }

@@ -40,7 +40,7 @@ public class P10323 {
 				} else {
 					System.out.println("Overflow!");
 				}
-				
+
 			}
 			if (i > 0 && i < 8 ) {
 				System.out.println("Underflow!");
@@ -52,6 +52,6 @@ public class P10323 {
 				System.out.println("Overflow!");
 			}
 		}
-
+		sc.close();
 	}
 }

@@ -19,6 +19,7 @@ public class P11805 {
 			}
 			System.out.printf("Case " + (++i) + ": %d\n", nb);
 		}
+		sc.close();
 	}
 
 }

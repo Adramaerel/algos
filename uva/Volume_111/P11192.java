@@ -33,6 +33,7 @@ public class P11192 {
 			sb.append("\n");
 		}
 		System.out.print(sb);
+		sc.close();
 	}
 
 }
