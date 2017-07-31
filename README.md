@@ -6,8 +6,8 @@ uva :
 	website : https://uva.onlinejudge.org
 	website of the pasts contests : https://icpcarchive.ecs.baylor.edu/index.php
 
-	See my stats here : http://uhunt.felix-halim.net/id/814243 (currently top 4,9%)
-	and here : https://icpcarchive.ecs.baylor.edu/uhunt/id/200430
+	See my stats here : http://uhunt.felix-halim.net/id/814243 (currently top 4,6%)
+	and here : https://icpcarchive.ecs.baylor.edu/uhunt/id/200430 (currently top 8,9%)
 
 	My nick on these websites is ethardolind.
 
