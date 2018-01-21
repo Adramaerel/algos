@@ -1,25 +1,31 @@
 # algos
-uva :
 
-	uva onlinejudge's solved algorithms in ANSI C and in Java
+algorithmique : résolution de problèmes d'algorithmiques
+	algorithmique/uva :
 
-	website : https://uva.onlinejudge.org
-	website of the pasts contests : https://icpcarchive.ecs.baylor.edu/index.php
+		uva onlinejudge's solved algorithms in ANSI C and in Java
 
-	See my stats here : http://uhunt.felix-halim.net/id/814243 (currently top 4,6%)
-	and here : https://icpcarchive.ecs.baylor.edu/uhunt/id/200430 (currently top 8,9%)
+		website : https://uva.onlinejudge.org
+		website of the pasts contests : https://icpcarchive.ecs.baylor.edu/index.php
 
-	My nick on these websites is ethardolind.
+		See my stats here : http://uhunt.felix-halim.net/id/814243 (currently top 4,6%)
+		and here : https://icpcarchive.ecs.baylor.edu/uhunt/id/200430 (currently top 8,9%)
 
-codingame : 
-	
-	My solutions in various languages. My nick is ethardolind.
+		My nick on these websites is ethardolind.
 
-	website : https://www.codingame.com
+	algorithmique/codingame : 
+		
+		My solutions in various languages. My nick is ethardolind.
 
-mooc : 
+		website : https://www.codingame.com
+
+mooc : massive online open courses
 
 	The moocs I decided to learn with.
+
+books :
+
+	autoformation
 	
 projects/artificial-neural-network
 
