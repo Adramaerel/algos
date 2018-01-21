@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class P1124 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		while(sc.hasNext()) {
+			
+			String ligne = sc.nextLine();
+			System.out.println(ligne);
+		}
+		sc.close();
+	}
+
+}
+
