@@ -8,7 +8,7 @@
 	int main()
 	{
 		char c [100];
-		// time limit with printf
+		/* time limit with printf */
 		while(gets(c))
 		{
 			printf("%s\n", c);
